@@ -1,0 +1,30 @@
+(base) C:\Users\wsew\Desktop\AI-course>cd ml_project
+
+(base) C:\Users\wsew\Desktop\AI-course\ml_project>conda activate C:\Users\wsew\Desktop\AI-course\ml_project\venv
+
+(C:\Users\wsew\Desktop\AI-course\ml_project\venv) C:\Users\wsew\Desktop\AI-course\ml_project>conda env export > environment.yml
+
+
+
+(C:\Users\wsew\Desktop\AI-course\ml_project\venv) C:\Users\wsew\Desktop\AI-course\ml_project>conda deactivate
+
+(base) C:\Users\wsew\Desktop\AI-course\ml_project>cd ..
+
+(base) C:\Users\wsew\Desktop\AI-course>cd cardio_project_1
+
+
+
+(base) C:\Users\wsew\Desktop\AI-course\cardio_project_1>conda env create --prefix ./env -f environment.yml
+
+
+(base) C:\Users\wsew\Desktop\AI-course\cardio_project_1>conda activate C:\Users\wsew\Desktop\AI-course\cardio_project_1\env
+
+
+(C:\Users\wsew\Desktop\AI-course\cardio_project_1\env) C:\Users\wsew\Desktop\AI-course\cardio_project_1>jupyter notebook
+
+
+cd Desktop
+cd AI-course
+cd cardio_project_1
+conda activate C:\Users\wsew\Desktop\AI-course\cardio_project_1\env
+jupyter notebook
